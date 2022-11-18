@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  position: relative;
+  width: 100%;
+  height: 6%;
+  background-color: black;
+}
+nav {
+  position: relative;
+  height: 100%;
+  width: 70%;
+
+  left: 350px;
+}
+nav h1 {
+  color: rgb(119, 88, 88);
+  font-size: 25px;
+  margin: 10px;
+  float: left;
+  margin-right: 80px;
+}
+nav li {
+  float: left;
+  margin-top: 15px;
+  padding-right: 40px;
+  list-style: none;
+}
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(119, 88, 88);
+}
+main {
+  width: 100%;
+  height: 70vh;
+}
+main .pageinfos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .pageinfos h1 {
+  margin: 15px 0;
+}
+main .pageinfos p {
+  margin-bottom: 15px;
+}
+hr {
+  margin: auto;
+  width: 80%;
+  margin-bottom: 15px;
+  background-color: lightgray;
+  border: none;
+  height: 1px;
+}
+main .imagelist {
+  display: flex;
+  justify-content: center;
+}
+main .imagelist img {
+  margin: 10px;
+  width: 550px;
+  height: 450px;
+}
+main .imagelist h2 {
+  color: rgb(0, 0, 0);
+}
+main .imagelist p {
+  color: rgb(44, 41, 41);
+}
+
+.page_changer ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.page_changer ul li {
+  border: 1px solid rgba(78, 49, 5, 0.377);
+  text-align: center;
+  padding: 5px 10px;
+  margin: 15px 0;
+}
+.page_changer ul .dot_left {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.page_changer ul .dot_right {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.page_changer ul li:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+  transform: translateY(10px);
+}
+.active {
+  background-color: blue;
+}
+.active:hover {
+  background-color: blue;
+}
+footer p {
+  left: 190px;
+  float: bottom;
+  font-weight: 200px;
+  color: gray;
+}
